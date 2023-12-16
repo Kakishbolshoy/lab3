@@ -34,7 +34,7 @@ int main()
         }
         else{
         printf("Произведение равно: %d\n", mult);
-        printf("\n")
+        printf("\n");
         }
     }
 
