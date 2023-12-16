@@ -33,17 +33,18 @@ int main()
                 mult *= a[k - 1];
             }
         }
-        printf("Между элементами %d и %d: ", i, k);
-        printf("Сумма равна: %d\n", sum);
-        if (mult == 1) {
-            printf("Произведение равно 0\n");
-        } else {
-            printf("Произведение равно: %d\n", mult);
+        if (sum!=0) {
+            printf("Между элементами %d и %d: ", i, k);
+            printf("Сумма равна: %d\n", sum);
+            if (mult == 1) {
+                printf("Произведение равно 0\n");
+            } else {
+                printf("Произведение равно: %d\n", mult);
+            }
+            printf("\n"); 
         }
-        printf("\n");
     }
 
     return 0;
 }
-    
-    
+ 
