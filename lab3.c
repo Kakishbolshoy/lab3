@@ -33,11 +33,10 @@ for (i = 0; i < n; i++) {
             break;
             }
 }
-if (start != -1 && end != -1) {
-    for (int k = start + 1; k < end; k++) {
-        sum += a[k];
-        mult *= a[k];
-        }
+for (int k = start + 1; k < end; k++) {
+    sum += a[k];
+    mult *= a[k];
+    
 break;
 }
 }
@@ -47,10 +46,10 @@ printf("Сумма равна: %d\n", sum);
 printf("Произведение равно: %d\n", mult);
 printf("\n");
 
-if (start != -1 && end != -1) {
-    a[start] = sum;
-    a[end] = mult;
-    }
+
+a[start] = sum;
+a[end] = mult;
+    
 
 printf("конечный массив: ");
 for (i = 0; i < n; i++) {
