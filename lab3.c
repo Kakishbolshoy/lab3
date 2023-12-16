@@ -43,6 +43,11 @@ int main()
             }
             printf("\n"); 
         }
+        a[k]=mult;
+        a[i]=sum;
+        for (i = 0; i < n; i++) {
+        printf("%d ", a[i]);
+        }
     }
 
     return 0;
