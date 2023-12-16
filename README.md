@@ -21,7 +21,7 @@ int main()
     for (i = 0; i < n; i++) {
         a[i] = rand() % 101 - 50;
     }
-
+    printf(a)
     int mult;
     int sum;
     for (i = 0; i < n; i++) {
@@ -34,6 +34,10 @@ int main()
                 mult *= a[k - 1];
             }
         }
+        printf("между индексами")
+        printf(i)
+        printf("и")
+        printf(k)
         printf("Сумма равна: %d\n", sum);
         if (mult==1){
             printf("произведение равно 0 \n");
@@ -46,6 +50,8 @@ int main()
 
     return 0;
 }
+
+    
     
 ~~~
 вот результаты запуска программы
